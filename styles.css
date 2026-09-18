@@ -1,0 +1,158 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(42, 99, 222);
+  padding:20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  height:auto;
+  transition:ease 2s;
+}
+
+.search {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  justify-content:space-between;
+  margin:auto;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+}
+
+.search button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 20px;
+  height: 20px;
+}
+
+.weather-info {
+  text-align: center;
+  margin:auto
+}
+
+.weather-info.close{
+display:none;
+}
+
+.weather-icon {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  transition:ease 3s;
+}
+
+.temperature {
+  font-size: 78px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.city-name {
+  font-size: 24px;
+  color: yellow;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.humidity-info{
+    display: flex;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.humidity-info img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+
+.wind-info{
+    display: flex;
+}
+ 
+
+.wind-info img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.weather-error {
+ display: flex;
+ flex-direction: column;
+ width:100%;
+ height:auto;
+ padding:20px;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.weather-error.close{
+display: none;
+}
+
+.weather-error img{
+  width:100%;
+  max-width:250px;
+  border-radius:10px;
+}
+
+.error-content {
+ background:white;
+ margin:15px;
+ padding:10px;
+ border-radius:10px;
+ text-align:center;
+ font-family: 'Courier New', Courier, monospace;
+ color: red;
+ font-weight: bolder;
+}
+
+
+
+
+
+
+
+
